@@ -1,3 +1,12 @@
+/**
+ * LED syncing to Music using the Fourier Transform
+ * by Yolanda Luque
+ * using the arduinoFFT library: https://github.com/kosme/arduinoFFT
+ * August 11, 2020
+ * Article on Medium: https://medium.com/@yolandaluqueh/music-to-led-strip-tutorial-using-fourier-transform-3d203a48fe14
+ * Video of the result: https://youtu.be/s7cNb5S1aBY
+ */
+
 #include <arduinoFFT.h>
 
 #define sensorPin A0
